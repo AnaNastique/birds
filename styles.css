@@ -32,11 +32,20 @@ header {
   padding: 15px 20px;
   border-radius: 10px;
   transition: background-color 0.3s ease, transform 0.2s ease;
+  box-sizing: border-box;
 }
 
 .random-link:hover {
   background-color: rgba(255, 255, 255, 0.4);
   transform: scale(1.1);
+}
+
+/* Paragraph alignment without <p> tags */
+div,
+section,
+footer {
+  margin: 20px;
+  line-height: 1.6;
 }
 
 /* Popup Styling */
@@ -60,10 +69,6 @@ header {
   border-radius: 10px;
   text-align: center;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-}
-
-.popup-content p {
-  margin-bottom: 20px;
 }
 
 .popup-content button {
